@@ -74,8 +74,8 @@ def count_word(words, text_file_list, file_name: str):
     return words_count
 
 
-def calculate_tf(textFile, words):
-    return count_word(words, textFile[1], textFile[0])
+def calculate_tf(text_file, words):
+    return count_word(words, text_file[1], text_file[0])
 
 
 def count_files(line):
